@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(233, 229, 217);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.common {
+    border: 2px solid rgb(135, 183, 205);
+    position: absolute;
+}
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 3;
+}
+.leftmenu {
+    top: 150px;
+    left: 5px;
+    width: 100px;
+    bottom: 300px;
+    z-index: 1;
+    padding-top: 40px;
+    border-right: solid 1px rgb(135, 183, 205);
+}
+.mainbody {
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 260px;
+    padding-right: 5px;
+}
+.rightmenu {
+    top: 114px;
+    right: 5px;
+    width: 100px;
+    padding-left: 5px;
+}
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 8px;
+    text-align: center;
+    padding-top: 10px;
+    position: fixed;
+    color: grey;
+}
+.subheader {
+    position: float;
+}
